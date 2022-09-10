@@ -1,0 +1,91 @@
+/* Navbar */
+.navbar {
+    height: 3rem;
+    overflow: visible;
+    position: relative;
+    padding: 3rem 0;
+}
+
+.nav-image {
+    position: absolute;
+    top: 0;
+}
+
+.mid-nav {
+    justify-content: space-evenly;
+    visibility: normal;
+    opacity: 1;
+}
+
+.mid-nav li {
+    list-style: none;
+}
+
+.mid-nav a {
+    font-family: var(--font1);
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 1rem 1.8rem;
+}
+
+.mid-nav a:hover {
+    color: #FFB61D;
+}
+
+.menu-icon {
+    color: #FFB61D;
+    font-size: 4rem;
+    cursor: pointer;
+    display: none;
+}
+
+.hide-nav {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* Show-logo class will show the logo of the company during hamburger menu  */
+.show-logo {
+    position: fixed;
+    z-index: 999;
+}
+
+/* Responsive for Phone */
+@media screen and (max-width: 620px) {
+    /* Navbar */
+    .navbar {
+        justify-content: flex-end;
+    }
+
+    /* Hamburger Menu */
+    .menu-icon {
+        display: block;
+        margin: 0 2.5rem;
+        float: right;
+    }
+
+    /* Mid navbar */
+    .mid-nav {
+        transition: visibility, opacity 0.35s ease-in-out;
+        flex-direction: column;
+        z-index: 99;
+        background-color: black;
+        height: 50vh;
+        width: 100%;
+        position: fixed;
+        top: 0%;
+        padding: 3rem 0;
+    }
+
+    .mid-nav a {
+        font-size: 2rem;
+    }
+
+    #beehive-img {
+        display: none;
+    }
+}
+

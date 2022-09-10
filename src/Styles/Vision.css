@@ -1,0 +1,129 @@
+#vision {
+    margin: 3.7rem auto;
+    height: 75rem;
+    position: relative;
+}
+
+.vision-img {
+    position: absolute;
+    bottom: 0;
+}
+
+.que-marks {
+    width: 27.5rem;
+    right: 0;
+} 
+
+.stairs {
+    width: 32.5rem;
+    filter: drop-shadow(1px 2px 38px rgba(255, 255, 255, 0.25));
+}
+
+.hand-img {
+    width: 30%;
+    right: 33%;
+}
+
+.vision-containers {
+    height: 62rem;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.vision-container {
+    justify-content: space-between;
+}
+
+.vision-box {
+    width: 29%;
+    height: 20rem;
+    background-color: #D9D9D9;
+    position: relative;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 1rem;
+}
+
+.box1 {
+    margin: 0 5rem;
+    box-shadow: -1rem 1rem 1px 2px #F34A0D;
+}
+
+.box2 {
+    margin: 0 5rem;
+    box-shadow: 1rem 1rem 1px 2px #FFBF21;
+}
+
+.box3 {
+    margin: 0 10rem;
+    box-shadow: -1rem 1rem 1px 2px #6C5CE7;
+}
+
+.box4 {
+    margin: 0 10rem;
+    box-shadow: 1rem 1rem 1px 2px #72BB54;
+}
+
+
+
+/* Responsive for Phone */
+@media screen and (max-width: 620px) {
+
+    #vision {
+        height: 145rem;
+    }
+
+    .hand-img {
+        display: block;
+        top: 20%;
+        right: 0;
+        width: 35rem;
+    }
+
+    .que-marks {
+        display: none;
+    }
+
+
+    .vision-containers {
+        height: 130rem;
+        justify-content: center;
+    }
+
+    .vision-container {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        height: 65rem;
+    }
+
+    .vision-box {
+        width: 45rem;
+    }
+
+    .box1 {
+        margin-left: 12rem;
+    }
+    
+    .box2 {
+        margin-left: 2rem;
+    }
+    
+    .box3 {
+        margin-left: 9rem;
+    }
+    
+    .box4 {
+        margin-right: 5rem;
+        align-self: flex-end;
+    }
+
+    .para {
+        font-size: 1.9rem;
+    }
+
+}

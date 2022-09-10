@@ -1,0 +1,174 @@
+/* Big footer */
+.big-footer {
+    height: 34.5rem;
+    display: grid;
+    grid-template-columns: 28% 15% 15% 28%;
+    justify-content: space-evenly;
+}
+
+.footer-box {
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 25rem;
+}
+
+.input-email p {
+    margin: 2rem 0;
+}
+
+.email-box {
+    width: 100%;
+    position: relative;
+}
+
+
+#email {
+    width: 90%;
+    height: 4.5rem;
+    background: #FFFFFF;
+    border: 0.2px solid #FFB61D;
+    border-radius: 2.5rem;
+    padding: 0.5rem 1rem;
+    font-family: var(--font1);
+    font-size: 1.7rem;
+}
+
+#email:focus {
+    outline: none;
+}
+
+.notify-me {
+    width: 10.5rem;
+    height: 4.5rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-family: var(--font1);
+    background: #EFBC3F;
+    border-radius: 2.5rem;
+    border: 0;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.footer-box h4 {
+    font-size: 2.3rem;
+    margin: 1rem 0;
+    font-family: var(--font1);
+}
+
+.footer-list {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-list li {
+    list-style: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    
+}
+
+.footer-link {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-family: var(--font1);
+    text-decoration: none;
+    position: relative;
+}
+
+.footer-link:hover {
+    top: 8%;
+}
+
+.footer-icon {
+    color: #EFBC3F;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+/* Small footer */
+.small-footer {
+    height: 5rem;
+}
+
+.side-footer {
+    background-color: #EFBC3F;
+    height: inherit;
+    width: 40%;
+}
+
+.left-footer {
+    border-radius: 0 10rem 0 0;
+}
+
+.right-footer {
+    border-radius: 10rem 0 0 0;
+    justify-content: space-evenly;
+}
+
+.mid-footer {
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.mid-footer i {
+    color: black;
+}
+
+/* Responsive for phone */
+@media screen and (max-width: 620px) {
+
+    /* Big footer */
+    .input-email p {
+        margin: 4rem 0;
+    }
+
+    .big-footer {
+        grid-template-columns: 50% 50%;
+        height: 75.5rem;
+    }
+
+    #email {
+        font-size: 2rem;
+    }
+
+    .footer-box h4 {
+        font-size: 3rem;
+    }
+
+    .footer-link {
+        font-size: 2rem;
+        position: static;
+    }
+
+    /* Small footer */
+    .small-footer {
+        height: 10rem;
+        flex-direction: column;
+        background-color: #EFBC3F;
+    }
+
+    .side-footer {
+        height: 52%;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .left-footer {
+        border-radius: 0;
+    }
+
+    .right-footer {
+        border-radius: 0;
+        
+    }
+
+    .mid-footer {
+        display: none;   
+    }
+}

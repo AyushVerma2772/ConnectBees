@@ -1,0 +1,179 @@
+.main {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Name */
+.name {
+    height: 50rem;
+    flex-direction: column;
+    position: relative;
+}
+
+.name-text {
+    font-family: var(--font1);
+    color: white;
+    font-size: 17rem;
+    text-align: center;
+    line-height: 16rem;
+}
+
+.bees {
+    color: #FFB61D;
+    position: relative;
+}
+
+.main-phone {
+    position: absolute;
+    width: 29rem;
+}
+
+/* Main footer */
+.main-footer {
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.left-main-footer {
+    height: inherit;
+    width: 30%;
+    flex-direction: column;
+}
+
+.install-btns {
+    width: 100%;
+}
+
+.install-button {
+    width: 17rem;
+    height: 5rem;
+    padding: 0 2rem;
+    background-color: transparent;
+    color: white;
+    font-family: var(--font1);
+    font-size: 1.6rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 0.7rem;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin: 0 1.5rem;
+}
+
+.install-button i {
+    color: #FFB61D;
+    font-size: 2.3rem;
+}
+
+
+.waitlist-btn {
+    background-color: #72BB54;
+    color: #FFFFFF;
+    width: 18rem;
+    height: 4.3rem;
+    border-radius: 2.3rem;
+    font-family: var(--font2);
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: block;
+    margin: 1.2rem auto;
+    cursor: pointer;
+    border: 0;
+}
+
+
+.right-main-footer {
+    width: 40%;
+    height: inherit;
+    justify-content: space-between;
+}
+
+.footer-content {
+    width: 65%;
+    font-size: 1.3rem;
+    font-family: var(--font3);
+    color: #B6B6B6;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.icon-div {
+    width: 25%;
+    justify-content: space-between;
+}
+
+.icon-div a {
+    margin: 0 1.5rem;
+}
+
+.icon-div a svg {
+    width: 2.5rem;
+}
+
+
+/* Responsive for Phone */
+@media screen and (max-width: 620px) {
+    .main {
+        background-position: center;
+    }
+
+    .name {
+        height: 65rem;
+    }
+
+    .name-text {
+        font-size: 16rem;
+    }
+
+    .main-phone {
+        width: 30rem;
+    }
+
+    /* Main footer */
+    .main-footer {
+        margin: 8rem auto;
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .left-main-footer {
+        width: 95%;
+    }
+
+    .install-btns {
+        width: 100%;
+    }
+
+    .install-button {
+        width: 21rem;
+        height: 6rem;
+        font-size: 2rem;
+        margin: 0 2.5rem;
+    }
+
+    .waitlist-btn {
+        width: 25rem;
+        height: 6rem;
+        font-size: 2rem;
+        margin: 3.5rem auto;
+        border-radius: 3.5rem;
+    }
+
+
+    .right-main-footer {
+        width: 95%;
+        justify-content: center;
+    }
+
+    .footer-content {
+        width: inherit;
+        font-size: 2.3rem;
+        line-height: 1.3;
+        padding: 1.5rem;
+    }
+
+    .icon-div {
+        display: none;
+    }
+}

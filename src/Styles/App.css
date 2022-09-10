@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  scrollbar-color: #FFBF21 #000000 !important;
+}
+
+html::-webkit-scrollbar {
+  border-radius: 5px;
+  width: 0.3vw;
+  height: 0.7vh;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #FFBF21;
+}
+
+html::-webkit-scrollbar-track:hover {
+  background-color: #000000;
+}
+
+
+
+body {
+  margin:0 auto;
+  background-color: #000000;
+  max-width: 1650px;
+}
+
+:root {
+  --font1: Almarai;
+  --font2: "Sansation";
+  --font3: "'Mulish', sans-serif";
+}
+
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.para {
+  font-size: 1.5rem;
+  font-family: var(--font3);
+  text-align: center;
+}
+
+.heading {
+  font-family: var(--font1);
+  color: white;
+  font-size: 5.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem 0;
+}
