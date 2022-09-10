@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ConnectBees/static/css/main.f9b32187.css",
+    "main.js": "/ConnectBees/static/js/main.44ffdd67.js",
+    "static/js/787.91f30b7b.chunk.js": "/ConnectBees/static/js/787.91f30b7b.chunk.js",
+    "static/media/vdoBg.png": "/ConnectBees/static/media/vdoBg.cb9d0a28358aba415663.png",
+    "static/media/hand.png": "/ConnectBees/static/media/hand.165a4daa12da18b898ea.png",
+    "static/media/rays.png": "/ConnectBees/static/media/rays.c7d87fb5ed81af3f9557.png",
+    "static/media/stairs.png": "/ConnectBees/static/media/stairs.6c1c0147ce057b28573e.png",
+    "static/media/phone.png": "/ConnectBees/static/media/phone.00a9eb44665b466cfeb9.png",
+    "static/media/phone3.png": "/ConnectBees/static/media/phone3.3cc3851ff6af9c900669.png",
+    "static/media/phone1.png": "/ConnectBees/static/media/phone1.e3ab4cbd1fa243746105.png",
+    "static/media/phone2.png": "/ConnectBees/static/media/phone2.cbad2c66e8bfd05e5756.png",
+    "static/media/boyImage.png": "/ConnectBees/static/media/boyImage.77413cf615e8ee5b6b17.png",
+    "static/media/logo.png": "/ConnectBees/static/media/logo.9cf251867312eef6edd7.png",
+    "static/media/floor.png": "/ConnectBees/static/media/floor.34ac0afad79b05b5d175.png",
+    "static/media/question marks.png": "/ConnectBees/static/media/question marks.9eb7a36259b240b161b7.png",
+    "static/media/beehive.png": "/ConnectBees/static/media/beehive.0809f1b2ac95dc4eeb7f.png",
+    "static/media/bee.png": "/ConnectBees/static/media/bee.a711642cabcfee1576f1.png",
+    "index.html": "/ConnectBees/index.html",
+    "main.f9b32187.css.map": "/ConnectBees/static/css/main.f9b32187.css.map",
+    "main.44ffdd67.js.map": "/ConnectBees/static/js/main.44ffdd67.js.map",
+    "787.91f30b7b.chunk.js.map": "/ConnectBees/static/js/787.91f30b7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9b32187.css",
+    "static/js/main.44ffdd67.js"
+  ]
+}
