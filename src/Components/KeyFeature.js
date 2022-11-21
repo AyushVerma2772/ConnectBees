@@ -29,7 +29,7 @@ function KeyFeature() {
           <div className="phoneHeading"
           >
             <div className="roundnumber d-flex">2</div>
-            <h4>RAGHVI TIWARI</h4>
+            <h4>Aman</h4>
           </div>
           <img src={phone2} alt="/" />
         </div>
